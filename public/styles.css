@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(62, 197, 238);
+}
+
+.main {
+    text-align: center;
+}
+
+#myCanvas {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.column {
+    margin: auto;
+}
+
+.row {
+    padding: 32%;
+    padding-top: 0;
+}
+
+/* Header */
+.title {
+    color: #e1ffc2;
+    padding: 20px;
+}
