@@ -1,31 +1,62 @@
 body {
-    background-color: rgb(62, 197, 238);
-}
-
-.main {
-    text-align: center;
-}
-
-#myCanvas {
-    background-color: white;
-    border: 1px solid black;
+    background-color: #eeeeee;
 }
 
 .btn {
     margin: 10px;
 }
 
-.column {
-    margin: auto;
-}
-
-.row {
-    padding: 32%;
-    padding-top: 0;
-}
-
 /* Header */
+.navbar-custom {
+    background-color: #222831;
+}
+
 .title {
     color: #e1ffc2;
     padding: 20px;
+}
+
+#milo-image {
+    display: none;
+}
+
+.container {
+    margin-left: 0;
+}
+
+#myCanvas {
+    margin: auto;
+    display: block;
+}
+
+#uploadInput {
+    display: none;
+}
+
+#inp {
+    display: none;
+}
+
+.upload-pic-section {
+    background-color: #393e46;
+    padding-top: 30px;
+}
+
+.upload-pic-section .btn {
+    width: 85%;
+    margin-right: 15px;
+}
+
+#submitURL {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.footer {
+    background-color: gray;
+    height: 20px;
+}
+
+.sorts {
+    display: none;
 }
