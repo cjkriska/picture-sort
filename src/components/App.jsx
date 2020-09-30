@@ -243,14 +243,15 @@ function App() {
           mappedArray[j] = mappedArray[j + 1];
           mappedArray[j + 1] = temp;
         }
-
+        
+        if(j%10 === 0) {
+          await sleep(1);
+          renderCanvas();
+        }
         if(stopSort) {
           return;
         }
-
       }
-      await sleep(1);
-      renderCanvas();
     }
 
   }
