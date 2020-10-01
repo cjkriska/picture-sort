@@ -1,3 +1,11 @@
+To Run:
+1. Navigate to /picture-sort-master/picture-sort-master in your command line
+2. npm install
+3. npm start
+4. Go to http://localhost:3000/ in your browser
+
+---------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
