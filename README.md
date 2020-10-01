@@ -1,4 +1,6 @@
-To Run:
+# Available Here: https://cjkriska.github.io/picture-sort/
+
+To Run Locally:
 1. Navigate to /picture-sort-master/picture-sort-master in your command line
 2. npm install
 3. npm start
